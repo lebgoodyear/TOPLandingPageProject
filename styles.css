@@ -3,12 +3,13 @@ body {
     padding:0;
 }
 
-.header {
+.header,
+.one {
     background-color: #1F2937;
     display: flex;
     align-items: center;
     flex: 1;
-    padding: 0px 64px;
+    padding: 0px 96px;
 }
 
 .header p {
@@ -26,7 +27,36 @@ body {
     gap: 16px;
 }
 
-.header li {
+.header li,
+.one p,
+.one .signup {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.one {
+    padding: 96px 96px;
+    flex: 1;
+}
+
+.one h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.signup {
+    background-color: #3882F6;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 4px 32px;
+    font-weight: 700;
+}
+
+.image-sub {
+    background-color: grey;
+    min-width: 300px;
 }
