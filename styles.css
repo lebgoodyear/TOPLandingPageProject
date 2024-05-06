@@ -46,7 +46,7 @@ body {
 .one h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .signup {
@@ -77,16 +77,25 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
-    padding: 56px 0px;
+    gap: 72px;
+    padding: 72px 256px 128px 256px;
+}
+
+.two p {
+    margin: 0px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
 }
 
 .card {
     display: flex;
-    gap: 32px;
+    flex-direction: column;
+    gap: 16px;
     font-size: 18px;
-    justify-content: center;
-    padding: 0px 128px;
     font-weight: 500;
 }
 
@@ -94,4 +103,27 @@ button {
     border: 5px solid #3882F6;
     height: 200px;
     border-radius: 16px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 128px 256px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote {
+    margin: 0;
+    padding: 0;
+}
+
+.famous {
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 0 auto;
 }
