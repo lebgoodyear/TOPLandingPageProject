@@ -9,13 +9,14 @@ body {
     display: flex;
     align-items: center;
     flex: 1;
-    padding: 0px 96px;
+    padding: 0px 128px;
 }
 
 .header p {
     color: #F9FAF8;
     font-size: 24px;
     margin-right: auto;
+    font-weight: 700;
 }
 
 .header ul {
@@ -35,8 +36,11 @@ body {
 }
 
 .one {
-    padding: 96px 96px;
+    padding: 128px 128px;
     flex: 1;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .one h1 {
@@ -58,5 +62,10 @@ button {
 
 .image-sub {
     background-color: grey;
-    min-width: 300px;
+    min-width: 450px;
+    height: 200px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
