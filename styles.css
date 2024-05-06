@@ -2,3 +2,31 @@ body {
     margin: 0;
     padding:0;
 }
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 0px 64px;
+}
+
+.header p {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.header li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
