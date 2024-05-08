@@ -37,9 +37,13 @@ body {
 .one {
     padding: 128px 128px;
     flex: 1;
-    gap: 32px;
+    gap: 6vh;
     justify-content: center;
     align-items: center;
+}
+
+.intro {
+    margin-right: auto;
 }
 
 .one h1 {
@@ -62,14 +66,16 @@ button {
 }
 
 .image-sub {
+    margin-left: auto;
     background-color: grey;
-    min-width: 450px;
-    min-height: 200px;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 0 1;
+    min-width: 400px;
+    max-width: 800px;
+    flex: 1;
+    aspect-ratio: 2/1;
 }
 
 .two {
@@ -89,8 +95,9 @@ button {
 
 .cards {
     display: flex;
-    gap: 32px;
+    gap: 4vw;
     justify-content: center;
+    flex: 1;
 }
 
 .card {
@@ -99,12 +106,16 @@ button {
     gap: 16px;
     font-size: 18px;
     font-weight: 500;
+    border-radius: 16px;
+    max-width: 200px;
 }
 
 .square {
     border: 5px solid #3882F6;
-    height: 200px;
     border-radius: 16px;
+    max-width: 300px;
+    min-width: 100px;
+    aspect-ratio: 1/1;
 }
 
 .three {
@@ -134,12 +145,13 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;  
+    flex: 1;
     margin: 128px 128px;
     border-radius: 12px;
     justify-content: center;
     align-items: center;
     gap: 64px;
-    padding: 56px 156px;
+    padding: 6vh 8vh;
 }
 
 .click-action1{
@@ -154,7 +166,6 @@ button {
 
 .click-action2{
     margin-left: auto;
-    
 }
 
 .call {
