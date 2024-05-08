@@ -37,7 +37,7 @@ body {
 .one {
     padding: 128px 128px;
     flex: 1;
-    gap: 6vh;
+    gap: 6vw;
     justify-content: center;
     align-items: center;
 }
@@ -151,7 +151,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 64px;
-    padding: 6vh 8vh;
+    padding: 6vh 8vw;
 }
 
 .click-action1{
